@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "description": "",
+    "name": "ZenSlugCleaner",
+    "description": "Quickly copy webpage URL without SEO slug to clipboard with just one click.",
     "version": "1.0",
     "manifest_version": 3,
     "permissions": [
