@@ -30,3 +30,19 @@ WIP
 ```bash
 rm -rf zenslugcleaner.zip && zip -r zenslugcleaner.zip * -x "screenshots/*" -x "zip/*"
 ```
+
+### Build / listing
+
+- description
+
+```
+1. Open any webpage in Google Chrome
+2. Right-click on the page and select "ZenSlugCleaner"
+3. The URL will be copied to your clipboard
+4. You can paste it anywhere you like
+```
+
+- category: Tool
+- language: English
+- screenshot: `1280x800`, `JPEG`
+- Homepage URL
