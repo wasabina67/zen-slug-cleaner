@@ -46,3 +46,17 @@ rm -rf zenslugcleaner.zip && zip -r zenslugcleaner.zip * -x "screenshots/*" -x "
 - language: English
 - screenshot: `1280x800`, `JPEG`
 - Homepage URL
+
+```
+https://github.com/wasabina67/zen-slug-cleaner
+```
+
+- Support URL
+
+```
+https://github.com/wasabina67/zen-slug-cleaner
+```
+
+### Build / privacy
+
+#### 単一用途
