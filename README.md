@@ -60,3 +60,44 @@ https://github.com/wasabina67/zen-slug-cleaner
 ### Build / privacy
 
 #### 単一用途
+
+```
+
+
+
+```
+
+#### 権限が必要な理由
+
+contextMenus
+
+```
+
+
+
+```
+
+activeTab
+
+```
+
+
+```
+
+scripting
+
+```
+
+
+```
+
+clipboardWrite
+
+```
+
+
+```
+
+リモートコード を使用していますか？
+
+- [x] いいえ、リモートコード を使用していません
