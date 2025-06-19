@@ -5,3 +5,7 @@ chrome.runtime.onInstalled.addListener(() => {
     contexts: ["all"],
   });
 });
+
+chrome.contextMenus.onClicked.addListener((info, tab) => {
+  if (info.menuItemId === "zen-slug-cleaner" && tab.id) {}
+});
