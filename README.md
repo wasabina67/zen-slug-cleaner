@@ -14,7 +14,7 @@ WIP
 
 ### Developer mode
 
-WIP
+https://github.com/wasabina67/zen-slug-cleaner/raw/refs/heads/main/zip/1.0/zenslugcleaner.zip
 
 ## How to use
 
