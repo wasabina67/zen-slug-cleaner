@@ -10,7 +10,7 @@ Quickly copy webpage URL without SEO slug to clipboard with just one click.
 
 ### chrome web store
 
-WIP
+WIPP
 
 ### Developer mode
 
