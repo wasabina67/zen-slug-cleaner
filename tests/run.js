@@ -1,4 +1,5 @@
 
+// cleanSlug needs to be defined inline, so it's copied and extracted to run.js
 function cleanSlug(url) {
   try {
     const urlObj = new URL(url);
