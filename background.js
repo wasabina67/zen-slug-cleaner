@@ -12,6 +12,13 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     chrome.scripting.executeScript({
       target: { tabId: tab.id },
       func: () => {
+        const currentUrl = window.location.href;
+
+        function cleanSlug(url) {
+          return url;
+        }
+
+        const cleanedUrl = cleanSlug(currentUrl);
       },
     }).catch(err => console.error(err.message));
   }
