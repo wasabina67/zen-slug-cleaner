@@ -35,6 +35,14 @@ function runTests() {
   const test1 = cleanSlug('https://example.com/123456789123456789-hello-world');
   assert(test1 === 'https://example.com/123456789123456789', 'Basic slug cleaning');
 
+  // Basic slug cleaning 2
+  const test2 = cleanSlug('https://example.com/posts/123456789123456789-hello-world');
+  assert(test2 === 'https://example.com/posts/123456789123456789', 'Basic slug cleaning 2');
+
+// Basic slug cleaning 3
+  const test3 = cleanSlug('https://example.com/posts/posts/123456789123456789-hello-world');
+  assert(test3 === 'https://example.com/posts/posts/123456789123456789', 'Basic slug cleaning 3');
+
   console.log('\n✓ All tests passed!');
 }
 
