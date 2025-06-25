@@ -32,8 +32,8 @@ function runTests() {
   console.log('Running cleanSlug tests...\n');
 
   // Basic slug cleaning
-  const test1 = cleanSlug('https://example.com/123-hello-world');
-  assert(test1 === 'https://example.com/123', 'Basic slug cleaning');
+  const test1 = cleanSlug('https://example.com/123456789123456789-hello-world');
+  assert(test1 === 'https://example.com/123456789123456789', 'Basic slug cleaning');
 
   console.log('\n✓ All tests passed!');
 }
