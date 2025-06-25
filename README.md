@@ -62,7 +62,7 @@ https://github.com/wasabina67/zen-slug-cleaner
 #### 単一用途
 
 ```
-
+ZenSlugCleanerは、現在表示しているウェブページ
 
 
 ```
