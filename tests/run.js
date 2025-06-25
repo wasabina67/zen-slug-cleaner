@@ -1,4 +1,7 @@
 
+function cleanSlug(url) {
+}
+
 function assert(condition, message) {
   if (!condition) {
     throw new Error(`Test failed: ${message}`);
