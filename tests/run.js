@@ -70,13 +70,29 @@ function runTests() {
   const test15 = cleanSlug('https://example.com/000123-padded-number');
   assert(test15 === 'https://example.com/000123', 'Zero-padded number slug');
 
+  // Test with URL-encoded Japanese characters in slug
+  const test16 = cleanSlug('https://example.com/123-%E3%83%86%E3%82%B9%E3%83%88%E8%A8%98%E4%BA%8B');
+  assert(test16 === 'https://example.com/123', 'URL-encoded Japanese slug cleaning');
+
+  // Test with mixed URL-encoded Japanese and ASCII in slug
+  const test17 = cleanSlug('https://example.com/456-hello-%E4%B8%96%E7%95%8C-world');
+  assert(test17 === 'https://example.com/456', 'Mixed URL-encoded Japanese and ASCII slug cleaning');
+
+  // Test with URL-encoded Japanese in deep path
+  const test18 = cleanSlug('https://blog.example.com/articles/789-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E8%A8%98%E4%BA%8B');
+  assert(test18 === 'https://blog.example.com/articles/789', 'Deep path with URL-encoded Japanese slug');
+
+  // Test with URL-encoded Japanese and query parameters
+  const test19 = cleanSlug('https://example.com/101-%E3%83%86%E3%82%B9%E3%83%88?param=%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF');
+  assert(test19 === 'https://example.com/101?param=%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF', 'URL-encoded Japanese slug with encoded query parameters');
+
   // Test empty path
-  const test16 = cleanSlug('https://example.com/');
-  assert(test16 === 'https://example.com/', 'Empty path URL');
+  const test20 = cleanSlug('https://example.com/');
+  assert(test20 === 'https://example.com/', 'Empty path URL');
 
   // Test root domain
-  const test17 = cleanSlug('https://example.com');
-  assert(test17 === 'https://example.com/', 'Root domain URL');
+  const test21 = cleanSlug('https://example.com');
+  assert(test21 === 'https://example.com/', 'Root domain URL');
 
   console.log('\n✓ All tests passed!');
 }
