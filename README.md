@@ -82,7 +82,7 @@ contextMenus
 activeTab
 
 ```
-
+この拡張機能は、「ClipTitle」を選択した際に、現在開いているタブのタイトルを取得するためにactiveTabの権限を使用しています。
 
 ```
 
