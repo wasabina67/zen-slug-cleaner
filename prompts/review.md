@@ -6,3 +6,7 @@
 
 実装は、background.jsで行っています。
 テストは、tests/run.jsで行っています。
+
+```bash
+npm test
+```
