@@ -4,5 +4,5 @@
 ブラウザ上で右クリックし、「ZenSlugCleaner」をクリックすると、SEOスラッグを除外して、URLをコピーします。
 前提としてSEOスラッグは、URLの末尾にのみ存在することとします。
 
-実装は、@background.jsで行っています。
-テストは、@tests/run.jsで行っています。
+実装は、background.jsで行っています。
+テストは、tests/run.jsで行っています。
