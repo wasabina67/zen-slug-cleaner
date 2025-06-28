@@ -20,7 +20,7 @@ https://github.com/wasabina67/zen-slug-cleaner/raw/refs/heads/main/zip/1.0/zensl
 
 1. Open any webpage in Google Chrome
 2. Right-click on the page and select "ZenSlugCleaner"
-3. The URL will be copied to your clipboard
+3. The URL without SEO slug will be copied to your clipboard
 4. You can paste it anywhere you like
 
 ## Developer Dashboard
@@ -38,7 +38,7 @@ rm -rf zenslugcleaner.zip && zip -r zenslugcleaner.zip * -x "screenshots/*" -x "
 ```
 1. Open any webpage in Google Chrome
 2. Right-click on the page and select "ZenSlugCleaner"
-3. The URL will be copied to your clipboard
+3. The URL without SEO slug will be copied to your clipboard
 4. You can paste it anywhere you like
 ```
 
