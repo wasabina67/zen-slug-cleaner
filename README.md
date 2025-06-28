@@ -64,8 +64,8 @@ https://github.com/wasabina67/zen-slug-cleaner
 #### 単一用途
 
 ```
-ZenSlugCleanerは、現在表示しているウェブページ
-
+ZenSlugCleanerは、現在表示しているウェブページのURLについて、SEOスラッグを除外して、
+ワンクリックでクリップボードにコピーすることを単一の目的とした拡張機能です。
 
 ```
 
