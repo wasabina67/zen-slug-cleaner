@@ -28,7 +28,8 @@ https://github.com/wasabina67/zen-slug-cleaner/raw/refs/heads/main/zip/1.0/zensl
 ### Creating a ZIP file
 
 ```bash
-rm -rf zenslugcleaner.zip && zip -r zenslugcleaner.zip * -x "prompts/*" -x "screenshots/*" -x "tests/*" -x "zip/*" -x "explain.sh" -x "package.json" -x "review.sh"
+rm -rf zenslugcleaner.zip && \
+zip -r zenslugcleaner.zip * -x "prompts/*" -x "screenshots/*" -x "tests/*" -x "zip/*" -x "explain.sh" -x "package.json" -x "review.sh"
 ```
 
 ### Build / listing
