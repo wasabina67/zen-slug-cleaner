@@ -1,6 +1,6 @@
 # zen-slug-cleaner
 
-WIP
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kiibffolmdjcfgmdnmnailcpljoicjcl?logo=google-chrome&logoColor=white&label=Chrome%20Web%20Store&labelColor=4285F4&color=4285F4)](https://chromewebstore.google.com/detail/zenslugcleaner/kiibffolmdjcfgmdnmnailcpljoicjcl)
 
 Zen Slug Cleaner 😎
 
@@ -10,7 +10,7 @@ Quickly copy webpage URL without SEO slug to clipboard with just one click.
 
 ### chrome web store
 
-WIP
+https://chromewebstore.google.com/detail/zenslugcleaner/kiibffolmdjcfgmdnmnailcpljoicjcl
 
 ### Developer mode
 
